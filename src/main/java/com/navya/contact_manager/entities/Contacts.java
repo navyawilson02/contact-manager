@@ -100,6 +100,15 @@ public class Contacts {
         this.user = user;
     }
 
+    public List<ContactGroup> getContactGroups() {
+        return contactGroups;
+    }
+
+    public void setContactGroups(List<ContactGroup> contactGroups) {
+        this.contactGroups = contactGroups;
+    }
+
+
     @Override
     public String toString() {
         return "Contacts{" +
